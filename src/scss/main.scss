@@ -1,0 +1,11 @@
+$bg-color: rgb(175, 31, 31);
+
+$breakpoint-lg: 48rem;
+$breakpoint-md: $breakpoint-lg/2;
+$berakpoint-sm: $breakpoint-md/2;
+
+body {
+    background-color: $bg-color;
+}
+
+@import 'components/container'
