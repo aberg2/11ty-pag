@@ -7,5 +7,9 @@ $berakpoint-sm: $breakpoint-md/2;
 body {
     background-color: $bg-color;
 }
+.navbar {
+    background-color: black;
+    color: white;
+}
 
 @import 'components/container'

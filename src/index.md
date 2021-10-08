@@ -1,5 +1,5 @@
 ---
-layout: "base.njk"
+layout: base.njk
 ---
 
-Hej
+Tjena tjena välkommen till min guide till att bli miljonär på olika cryptocurrencies
