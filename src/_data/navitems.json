@@ -1,8 +1,20 @@
 {
     "items": [
         {
+            "title": "Home",
+            "url": "/index"
+        },{
             "title": "Bitcoin",
-            "url": "/dog"
+            "url": "/navsites/bitcoin"
+        },{
+            "title": "Ethereum",
+            "url": "/navsites/ethereum"
+        },{
+            "title": "Cardano",
+            "url": "/navsites/cardano"
+        },{
+            "title": "Shiba",
+            "url": "/navsites/shiba"
         }
     ]
 }

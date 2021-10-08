@@ -10,6 +10,10 @@ body {
 .navbar {
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 0 0 0;
 }
 
 @import 'components/container'
