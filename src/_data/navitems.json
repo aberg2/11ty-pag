@@ -1,20 +1,17 @@
 {
     "items": [
         {
-            "title": "Home",
-            "url": "/index"
+            "title": "bitcoin",
+            "ticker": "BTC"
         },{
-            "title": "Bitcoin",
-            "url": "/navsites/bitcoin"
+            "title": "ethereum",
+            "ticker": "ETH"
         },{
-            "title": "Ethereum",
-            "url": "/navsites/ethereum"
+            "title": "cardano",
+            "ticker": "ADA"
         },{
-            "title": "Cardano",
-            "url": "/navsites/cardano"
-        },{
-            "title": "Shiba",
-            "url": "/navsites/shiba"
+            "title": "shiba",
+            "ticker": "SHIB"
         }
     ]
 }

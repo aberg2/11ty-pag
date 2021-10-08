@@ -1,0 +1,10 @@
+---
+layout: base.njk
+pagination: 
+    data: navitems.items
+    size: 1
+    alias: data
+permalink: "data/{{ data.title | slug }}/"
+---
+    <header class="rubrik"><h1 class="titel"> {{ data.title }}</h1><h2 class="ticker">{{ data.ticker }}</h2></header>
+    

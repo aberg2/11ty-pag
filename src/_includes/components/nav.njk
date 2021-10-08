@@ -1,8 +1,9 @@
 <nav>
     <ul class="navbar">
+      <li><a href="/">Home</a></li>
 {% for item in navitems.items %}
   <li class="navitem">
-      <a href="{{ item.url }}">
+      <a href="/data/{{item.title}}">
         {{ item.title }}
         </a>
       </li>
