@@ -2,16 +2,16 @@
     "items": [
         {
             "title": "bitcoin",
-            "ticker": "BTC"
+            "ticker": "btc"
         },{
             "title": "ethereum",
-            "ticker": "ETH"
+            "ticker": "eth"
         },{
             "title": "cardano",
-            "ticker": "ADA"
+            "ticker": "ada"
         },{
-            "title": "shiba",
-            "ticker": "SHIB"
+            "title": "dogecoin",
+            "ticker": "doge"
         }
     ]
 }

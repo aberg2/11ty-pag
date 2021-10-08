@@ -6,5 +6,9 @@ pagination:
     alias: data
 permalink: "data/{{ data.title | slug }}/"
 ---
-    <header class="rubrik"><h1 class="titel"> {{ data.title }}</h1><h2 class="ticker">{{ data.ticker }}</h2></header>
+    <header class="rubrik">
+        <h1 class="titel"> {{ data.title }}</h1>
+        <h2 class="ticker">{{ data.ticker }}</h2>
+        <img src="https://cryptoicons.org/api/icon/{{data.ticker}}/100" alt="">
+    </header>
     
