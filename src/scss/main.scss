@@ -3,19 +3,34 @@ $bg-color: rgb(175, 31, 31);
 $breakpoint-lg: 48rem;
 $breakpoint-md: $breakpoint-lg/2;
 $berakpoint-sm: $breakpoint-md/2;
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: $bg-color;
 }
-.navbar {
+.navbar{
     background-color: black;
+    width: 100%;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0 0 0 0;
-    text-transform: uppercase;
+
+    .navcontent{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .navitem{
+        
+        list-style: none;
+        padding: 2rem;
+        margin: 0;
+        width: 100%;
+        text-transform: uppercase;
+    }
 }
+
 
 @import 'components/navsite';
 @import 'components/container'
