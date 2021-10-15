@@ -13,21 +13,30 @@ body {
 .navbar{
     background-color: black;
     width: 100%;
-    color: white;
 
     .navcontent{
-        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
         display: flex;
         justify-content: space-between;
         
     }
     .navitem{
-        
+        text-decoration: none;
         list-style: none;
-        padding: 2rem;
+        padding: 2rem 0rem 2rem 0rem;
         margin: 0;
         width: 100%;
         text-transform: uppercase;
+       
+       
+        a {
+            text-decoration: none;
+            color: #ff0000c2;
+
+            &:hover {
+                color: lighten(#ff0000c2, 30%)
+            }
+        }
     }
 }
 
